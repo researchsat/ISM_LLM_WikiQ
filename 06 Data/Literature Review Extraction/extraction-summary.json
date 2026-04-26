@@ -1,0 +1,10 @@
+{
+  "pdf_count": 63,
+  "papers_extracted": 63,
+  "failures": [],
+  "numeric_snippets": 4859,
+  "output_files": [
+    "LiteratureReview/paper-extraction-matrix.csv",
+    "LiteratureReview/numerical-data-extract.csv"
+  ]
+}

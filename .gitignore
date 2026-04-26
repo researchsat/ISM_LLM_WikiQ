@@ -1,0 +1,13 @@
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Obsidian local UI/session state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Local caches and temporary exports
+.cache/
+tmp/
+*.tmp

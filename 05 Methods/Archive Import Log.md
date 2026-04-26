@@ -1,0 +1,99 @@
+## Lint Run: 2026-04-18 12:19
+Scanned 54 component files.
+
+- **WARNING (Orphan):** `Elke__gravity_on_liquid_diffusion.md` has 0 extracted related topics.
+- **TODO (Governance):** `Elke__gravity_on_liquid_diffusion.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Haipeng_2024_refractory_droplet_freezing_in_space.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Haipeng_2024_refractory_droplet_freezing_in_space.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Viardin__mesoscopic_hypergravity.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Viardin__mesoscopic_hypergravity.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Thomas_2023_Al-Cu_benchmark_g1g.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Thomas_2023_Al-Cu_benchmark_g1g.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Gangopadhyay_2022_ISS-EML_stirring__nucleation.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Gangopadhyay_2022_ISS-EML_stirring__nucleation.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Neumann_2023_BMG_powder_AM_in_space.md` has 0 extracted related topics.
+- **INFO (Missing Text):** `Neumann_2023_BMG_powder_AM_in_space.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Neumann_2023_BMG_powder_AM_in_space.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Zhang_2024_ESL_control_on_CSS.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Zhang_2024_ESL_control_on_CSS.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Matson__ISS-EML_rapid_solidification.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Matson__ISS-EML_rapid_solidification.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Yidong_2024_CSS_space-science_progress.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Bergeon_2022_g_vs_1g_DS_in-situ.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `QiuZhong_2024_CSS_ESL_thermophysics.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Fredriksson__g_solidification_analysis.md` has 0 extracted related topics.
+- **INFO (Missing Text):** `Fredriksson__g_solidification_analysis.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Fredriksson__g_solidification_analysis.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Jiuzhou__immiscible_alloy_in_space.md` has 0 extracted related topics.
+- **INFO (Missing Text):** `Jiuzhou__immiscible_alloy_in_space.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Jiuzhou__immiscible_alloy_in_space.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Rakibul_2024_reduced-g_laser_welding.md` has 0 extracted related topics.
+- **TODO (Governance):** `Rakibul_2024_reduced-g_laser_welding.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Yanan_2024_CSS_materials_dataset.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Yanan_2024_CSS_materials_dataset.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Seyed__Marangoni-driven_spurious_grains_ISS.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Reitz_2021_AM_under_lunar-g__g.md` has 0 extracted related topics.
+- **TODO (Governance):** `Reitz_2021_AM_under_lunar-g__g.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Galenko_2022_Al-Ni_rapid_solidification.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Galenko_2022_Al-Ni_rapid_solidification.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Reinhart_2022_XRMON-ISS_prep.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Chang_2024_Nb-Si_ESL_undercooling.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Xunzuo_2024_metal_AM_in_space_review.md` has 0 extracted related topics.
+- **TODO (Governance):** `Xunzuo_2024_metal_AM_in_space_review.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Wang__UHT_alloys__Marangoni_in_space.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Guiyuan__Al-Si_vs_Al-Cu_DS.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Guiyuan__Al-Si_vs_Al-Cu_DS.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Haipeng__spiral_eutectic_via_Marangoni.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Liao_2024_space_flow_on_dendriticeutectic_growth.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Liao_2024_space_flow_on_dendriticeutectic_growth.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Yuze__RMF_on_Al-7Si_g.md` has 0 extracted related topics.
+- **TODO (Governance):** `Yuze__RMF_on_Al-7Si_g.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Kargl__XRISE-M_sounding_rocket.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Kargl__XRISE-M_sounding_rocket.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Francisco__ISRU_lunar_plant_analysis.md` has 0 extracted related topics.
+- **INFO (Missing Text):** `Francisco__ISRU_lunar_plant_analysis.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Francisco__ISRU_lunar_plant_analysis.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Aboukhalil__Al-7Si_3D_fragment_g.md` has 0 extracted related topics.
+- **TODO (Governance):** `Aboukhalil__Al-7Si_3D_fragment_g.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Akamatsu__lamellar-to-rod_in_g.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Mohr__ISS-EML_thermophysical_properties.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Mohr__ISS-EML_thermophysical_properties.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Ngomesse_2023_Al-20Cu_CET_in-situ.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Ngomesse_2023_Al-20Cu_CET_in-situ.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Hrjer__Al-20Cu_in-situ_X-radiography.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Fangjie_2023_hypergravity_review.md` has 0 extracted related topics.
+- **TODO (Governance):** `Fangjie_2023_hypergravity_review.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Geng_2023_acoustic_levitation_solidification.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Geng_2023_acoustic_levitation_solidification.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Geng__g-jitter_on_Al-20Cu.md` has 0 extracted related topics.
+- **TODO (Governance):** `Geng__g-jitter_on_Al-20Cu.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Mohr__thermophysical_g_review.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Mohr__thermophysical_g_review.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Ludwig__peritectic_couple_growth_g.md` has 0 extracted related topics.
+- **TODO (Governance):** `Ludwig__peritectic_couple_growth_g.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Lhu__Fe-19Si_on_CSS.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Robin_2023_sharpprogressive_CET_model.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Andrew_2023_Al-Ni_ISS-EML_kinetics.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Becker_2023_Al-Cu__Al-Ge_equiaxed_g.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Becker_2023_Al-Cu__Al-Ge_equiaxed_g.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Roosz__Al-7Si_eutectic__2_in_g.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Mohr__Ti-6Al-4V_ISS-EML.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Mohr__Ti-6Al-4V_ISS-EML.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Huang_2024_Ti-46Al-8Nb_CA-FVM_centrifugal.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Huang_2024_Ti-46Al-8Nb_CA-FVM_centrifugal.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Haipeng__Zr50V50_hypereutectic_in_space.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Viardin_2023_CVDL_on_phase-field_dendrites.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Blake_2024_ISRU_ductile_iron.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Zimmermann__grain-refined_Al-Cu_ISS.md` is missing QA metrics like confidence/contradictions.
+- **INFO (Missing Text):** `Akamatsu__SCN_transparent_g.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Akamatsu__SCN_transparent_g.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Mitra_2024_laser_AM_in_space_review.md` has 0 extracted related topics.
+- **TODO (Governance):** `Mitra_2024_laser_AM_in_space_review.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Murphy__MASER-13_front-tracking_Al-20Cu.md` is missing QA metrics like confidence/contradictions.
+- **TODO (Governance):** `Apurba__Al-Cu_nanostructure_MD.md` is missing QA metrics like confidence/contradictions.
+- **WARNING (Orphan):** `Reinhart__in-situ_X-ray_review.md` has 0 extracted related topics.
+- **INFO (Missing Text):** `Reinhart__in-situ_X-ray_review.md` failed programmatic abstract extraction.
+- **TODO (Governance):** `Reinhart__in-situ_X-ray_review.md` is missing QA metrics like confidence/contradictions.
+
+---
+
