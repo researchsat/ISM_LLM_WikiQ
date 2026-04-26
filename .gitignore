@@ -7,7 +7,19 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
+# Quartz generated output and local dependencies
+node_modules/
+public/
+.quartz-cache/
+prof/
+tsconfig.tsbuildinfo
+
 # Local caches and temporary exports
 .cache/
 tmp/
 *.tmp
+
+# Quartz hosting/sandbox files not used by this vault
+private/
+.replit
+replit.nix
