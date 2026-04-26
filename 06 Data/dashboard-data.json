@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-26 13:05",
+  "generated": "2026-04-26 13:29",
   "counts": {
-    "notes": 380,
+    "notes": 381,
     "pdfs": 63,
     "digests": 186,
     "archive_papers": 54,
@@ -471,6 +471,7 @@
         "Comparative study of Al-7wtSi directional solidification in Space and on Earth",
         "Constitutional Undercooling",
         "Containerless Electromagnetic Levitation",
+        "Deep Research - Metal Alloy Processing for In-Space Manufacturing",
         "Dendritic Growth",
         "Directional Solidification",
         "Directional solidification of Al-1.5wtNi under diffusion transport in space",
@@ -488,7 +489,7 @@
         "Validation Report",
         "Why Gravity Matters in Alloy Solidification"
       ],
-      "preview": "# Metal Alloy Processing for In-Space Manufacturing MOC This is the home map for the PhD wiki on metal alloy solidification and manufacturing in space microgravity. ## Core Literature Review - [[Interactive PhD Dashboard]] - [[Earth 1g vs Microgravity Solidifi"
+      "preview": "# Metal Alloy Processing for In-Space Manufacturing MOC This is the home map for the PhD wiki on metal alloy solidification and manufacturing in space microgravity. ## Core Literature Review - [[Deep Research - Metal Alloy Processing for In-Space Manufacturing"
     },
     {
       "title": "Metal Alloy Processing for In-Space Manufacturing",
@@ -506,11 +507,14 @@
       "relevance": "",
       "source_pdf": "",
       "links": [
+        "Deep Research - Metal Alloy Processing for In-Space Manufacturing",
         "Earth 1g vs Microgravity Solidification Processing",
+        "Implications_for_in-space_manufacturing",
         "Literature Review Workflow",
-        "Metal Alloy Processing for In-Space Manufacturing MOC"
+        "Metal Alloy Processing for In-Space Manufacturing MOC",
+        "Open_questions_for_my_PhD"
       ],
-      "preview": "# Metal Alloy Processing for In-Space Manufacturing Start here: - [[Metal Alloy Processing for In-Space Manufacturing MOC]] - [[Earth 1g vs Microgravity Solidification Processing]] - [[Literature Review Workflow]]"
+      "preview": "# Metal Alloy Processing for In-Space Manufacturing ## Research Focus This PhD investigates how metal alloys solidify when buoyancy-driven transport is suppressed or strongly reduced, and how that behaviour can inform reliable in-space manufacturing of metalli"
     },
     {
       "title": "Earth 1g vs Microgravity Solidification Processing",
@@ -629,6 +633,28 @@
       "preview": "# Convection vs Microstructure under Microgravity ## Purpose This page aggregates findings from all extracted literature notes that match the conceptual keywords for this topic. ## Relevant Literature Insights - [[wiki/papers/Elke__gravity_on_liquid_diffusion]"
     },
     {
+      "title": "Deep Research: Metal Alloy Processing for In-Space Manufacturing",
+      "path": "01 Literature Review/Syntheses/Deep Research - Metal Alloy Processing for In-Space Manufacturing.md",
+      "type": "Review",
+      "top": "01 Literature Review",
+      "status": "draft",
+      "tags": [
+        "phd",
+        "literature-review",
+        "in-space-manufacturing",
+        "microgravity",
+        "solidification",
+        "metal-alloys"
+      ],
+      "priority": "",
+      "system": "",
+      "method": "",
+      "relevance": "",
+      "source_pdf": "",
+      "links": [],
+      "preview": "# Deep Research: Metal Alloy Processing for In-Space Manufacturing Research question: **How does microgravity alter metal-alloy solidification behaviour, and how can that knowledge be converted into process rules for in-space manufacturing of reliable metallic"
+    },
+    {
       "title": "Implications for In-Space Manufacturing",
       "path": "01 Literature Review/Syntheses/Implications_for_in-space_manufacturing.md",
       "type": "Review",
@@ -643,6 +669,7 @@
       "relevance": "",
       "source_pdf": "",
       "links": [
+        "Deep Research - Metal Alloy Processing for In-Space Manufacturing",
         "wiki/papers/Aboukhalil__Al-7Si_3D_fragment_g",
         "wiki/papers/Akamatsu__SCN_transparent_g",
         "wiki/papers/Akamatsu__lamellar-to-rod_in_g",
@@ -698,7 +725,7 @@
         "wiki/papers/Zhang_2024_ESL_control_on_CSS",
         "wiki/papers/Zimmermann__grain-refined_Al-Cu_ISS"
       ],
-      "preview": "# Implications for In-Space Manufacturing ## Purpose This page aggregates findings from all extracted literature notes that match the conceptual keywords for this topic. ## Relevant Literature Insights - [[wiki/papers/Elke__gravity_on_liquid_diffusion]]: Gravi"
+      "preview": "# Implications for In-Space Manufacturing ## Purpose This page aggregates findings from all extracted literature notes that match the conceptual keywords for this topic. For the current thesis direction, the key implication is that microgravity should be treat"
     },
     {
       "title": "Open Questions and Contradictions for my PhD",
@@ -715,13 +742,15 @@
       "relevance": "",
       "source_pdf": "",
       "links": [
+        "Deep Research - Metal Alloy Processing for In-Space Manufacturing",
+        "Implications_for_in-space_manufacturing",
         "wiki/papers/Andrew_2023_Al-Ni_ISS-EML_kinetics",
         "wiki/papers/Galenko_2022_Al-Ni_rapid_solidification",
         "wiki/papers/Haipeng__Zr50V50_hypereutectic_in_space",
         "wiki/papers/Rakibul_2024_reduced-g_laser_welding",
         "wiki/papers/Seyed__Marangoni-driven_spurious_grains_ISS"
       ],
-      "preview": "# Open Questions and Contradictions for my PhD ## Purpose This page aggregates findings from all extracted literature notes that match the conceptual keywords for this topic. ## Relevant Literature Insights - [[wiki/papers/Rakibul_2024_reduced-g_laser_welding]"
+      "preview": "# Open Questions and Contradictions for my PhD ## Purpose This page aggregates findings from all extracted literature notes that match the conceptual keywords for this topic. This page now tracks thesis-grade research gaps that can become chapters, papers or e"
     },
     {
       "title": "Platforms for Metal Alloy Microgravity Research",
@@ -2439,6 +2468,9 @@
       "relevance": "",
       "source_pdf": "",
       "links": [
+        "Columnar-to-Equiaxed Transition",
+        "Deep Research - Metal Alloy Processing for In-Space Manufacturing",
+        "Earth 1g vs Microgravity Solidification Processing",
         "In-Space Additive Manufacturing",
         "Liquid-Solid Mixture Processing",
         "Marangoni Convection in Melt Pools",
@@ -8034,13 +8066,14 @@
       "source_pdf": "",
       "links": [
         "Archive Import Map",
+        "Deep Research - Metal Alloy Processing for In-Space Manufacturing",
         "Earth 1g vs Microgravity Solidification Processing",
         "Interactive PhD Dashboard",
         "Literature Review Workflow",
         "Metal Alloy Processing for In-Space Manufacturing",
         "Metal Alloy Processing for In-Space Manufacturing MOC"
       ],
-      "preview": "# START HERE Open the PhD wiki from here: - [[Metal Alloy Processing for In-Space Manufacturing]] - [[Metal Alloy Processing for In-Space Manufacturing MOC]] - [[Interactive PhD Dashboard]] - [[Archive Import Map]] - [[Earth 1g vs Microgravity Solidification P"
+      "preview": "# START HERE Open the PhD wiki from here: - [[Metal Alloy Processing for In-Space Manufacturing]] - [[Metal Alloy Processing for In-Space Manufacturing MOC]] - [[Deep Research - Metal Alloy Processing for In-Space Manufacturing]] - [[Interactive PhD Dashboard]"
     }
   ],
   "charts": [
@@ -8108,31 +8141,31 @@
     ],
     [
       "microgravity",
-      18
+      19
     ],
     [
       "solidification",
-      11
+      12
     ],
     [
       "alloy",
       8
     ],
     [
+      "phd",
+      7
+    ],
+    [
       "method",
       7
     ],
     [
-      "phd",
+      "in-space-manufacturing",
       6
     ],
     [
       "thermophysical-properties",
       6
-    ],
-    [
-      "in-space-manufacturing",
-      5
     ],
     [
       "eutectic",
@@ -8151,6 +8184,10 @@
       4
     ],
     [
+      "literature-review",
+      4
+    ],
+    [
       "synthesis",
       4
     ],
@@ -8164,10 +8201,6 @@
     ],
     [
       "ISM",
-      3
-    ],
-    [
-      "literature-review",
       3
     ],
     [
@@ -8234,7 +8267,7 @@
     ],
     [
       "draft",
-      4
+      5
     ],
     [
       "working-note",
@@ -8283,12 +8316,12 @@
       8
     ],
     [
-      "Paper",
+      "Review",
       8
     ],
     [
-      "Review",
-      7
+      "Paper",
+      8
     ],
     [
       "Platforms",
@@ -8338,7 +8371,7 @@
     ],
     [
       "01 Literature Review",
-      7
+      8
     ],
     [
       "99 Templates",

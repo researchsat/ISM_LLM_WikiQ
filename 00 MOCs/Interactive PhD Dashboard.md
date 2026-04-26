@@ -27,7 +27,7 @@ The HTML dashboard is self-contained and generated from the current vault files.
 
 | Metric | Count |
 |---|---:|
-| Notes | 380 |
+| Notes | 381 |
 | Reference PDFs | 63 |
 | Paper digests | 186 |
 | Archive paper notes | 54 |

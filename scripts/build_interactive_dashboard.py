@@ -253,6 +253,15 @@ h1 {{ margin: 10px 0 12px; font-size: 38px; line-height: 1.05; letter-spacing: 0
   cursor: pointer;
 }}
 .quickLinks a:hover, button:hover {{ border-color: var(--green); }}
+.quickLinks a.reviewLink {{
+  background: #ff3241;
+  border-color: #ff3241;
+  color: #ffffff;
+}}
+.quickLinks a.reviewLink:hover {{
+  background: #e12634;
+  border-color: #e12634;
+}}
 .metrics {{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }}
 .metric {{ padding: 18px; min-height: 98px; }}
 .metric b {{ display: block; font-size: 34px; line-height: 1; }}
@@ -305,9 +314,8 @@ h1 {{ margin: 10px 0 12px; font-size: 38px; line-height: 1.05; letter-spacing: 0
       <h1>PhD Wiki Interactive Dashboard</h1>
       <p class="subtitle">A visual index of the current Obsidian vault: concept notes, paper notes, digests, charts, extraction data, and review workflow. Use the filters to move between the literature-review map, mechanisms, alloy systems, platforms, and paper evidence.</p>
       <div class="quickLinks">
-        <a href="../START%20HERE.md" data-vault-path="START HERE.md">Start Here</a>
         <a href="../00%20MOCs/Metal%20Alloy%20Processing%20for%20In-Space%20Manufacturing%20MOC.md" data-vault-path="00 MOCs/Metal Alloy Processing for In-Space Manufacturing MOC.md">Main MOC</a>
-        <a href="../01%20Literature%20Review/Earth%201g%20vs%20Microgravity%20Solidification%20Processing.md" data-vault-path="01 Literature Review/Earth 1g vs Microgravity Solidification Processing.md">1g vs Microgravity Review</a>
+        <a class="reviewLink" href="../01%20Literature%20Review/Earth%201g%20vs%20Microgravity%20Solidification%20Processing.md" data-vault-path="01 Literature Review/Earth 1g vs Microgravity Solidification Processing.md">1g vs Microgravity Review</a>
         <a href="../05%20Methods/Literature%20Review%20Workflow.md" data-vault-path="05 Methods/Literature Review Workflow.md">Workflow</a>
       </div>
     </div>
