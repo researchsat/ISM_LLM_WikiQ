@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "researchsat.github.io/ISM_LLM_Wiki",
+    baseUrl: "researchsat.github.io/ISM_LLM_WikiQ",
     ignorePatterns: [
       "private",
       ".obsidian",

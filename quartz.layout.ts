@@ -8,8 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/researchsat/ISM_LLM_Wiki",
-      Dashboard: "https://researchsat.github.io/ISM_LLM_Wiki/00%20MOCs/Interactive%20PhD%20Dashboard.html",
+      GitHub: "https://github.com/researchsat/ISM_LLM_WikiQ",
+      Dashboard: "https://researchsat.github.io/ISM_LLM_WikiQ/00%20MOCs/Interactive%20PhD%20Dashboard.html",
     },
   }),
 }
