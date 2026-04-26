@@ -75,7 +75,7 @@ This Quartz site publishes the PhD wiki for **Metal Alloy Processing for In-Spac
 
 - [[00 MOCs/Metal Alloy Processing for In-Space Manufacturing MOC|Main MOC]]
 - [[00 MOCs/Interactive PhD Dashboard|Interactive dashboard note]]
-- [Interactive visual dashboard](00%20MOCs/Interactive%20PhD%20Dashboard.html)
+- [Interactive visual dashboard](00-MOCs/Interactive-PhD-Dashboard.html)
 - [[01 Literature Review/Earth 1g vs Microgravity Solidification Processing|1g vs Microgravity Review]]
 - [[05 Methods/Literature Review Workflow|Literature Review Workflow]]
 
