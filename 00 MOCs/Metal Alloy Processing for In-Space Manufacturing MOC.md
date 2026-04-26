@@ -16,6 +16,7 @@ This is the home map for the PhD wiki on metal alloy solidification and manufact
 
 ## Core Literature Review
 
+- [[Deep Research - Metal Alloy Processing for In-Space Manufacturing]]
 - [[Interactive PhD Dashboard]]
 - [[Earth 1g vs Microgravity Solidification Processing]]
 - [[Validation Report]]

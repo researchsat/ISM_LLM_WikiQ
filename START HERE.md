@@ -12,6 +12,7 @@ Open the PhD wiki from here:
 
 - [[Metal Alloy Processing for In-Space Manufacturing]]
 - [[Metal Alloy Processing for In-Space Manufacturing MOC]]
+- [[Deep Research - Metal Alloy Processing for In-Space Manufacturing]]
 - [[Interactive PhD Dashboard]]
 - [[Archive Import Map]]
 - [[Earth 1g vs Microgravity Solidification Processing]]

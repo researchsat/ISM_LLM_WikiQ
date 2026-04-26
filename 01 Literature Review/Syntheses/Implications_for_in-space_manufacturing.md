@@ -12,6 +12,54 @@ tags:
 ## Purpose
 This page aggregates findings from all extracted literature notes that match the conceptual keywords for this topic.
 
+For the current thesis direction, the key implication is that microgravity should be treated as a **solidification-process variable and model-validation condition**, not as a simple absence of convection. The field already shows that buoyancy-driven convection and grain sedimentation/floatation are reduced in microgravity, but residual transport mechanisms remain important. These include Marangoni convection at free surfaces and bubbles, shrinkage feeding, surface-pore-driven flow, electromagnetic stirring in levitation facilities, residual acceleration/g-jitter, and recoil or melt-bridge effects in AM-like melt pools.
+
+The practical in-space manufacturing question is therefore:
+
+> Which residual transport mechanism controls microstructure and defects for a given alloy, geometry, atmosphere and heat source?
+
+## Working Synthesis
+
+### 1. Microgravity creates cleaner benchmarks, not automatically better parts
+
+ISS CETSOL/MICAST and sounding-rocket experiments show that microgravity can approach diffusion-controlled directional solidification. This is valuable because it provides benchmark data for CET, dendrite growth and macrosegregation models. However, clean benchmark behaviour depends on geometry, platform duration, surface condition, pores, residual acceleration and thermal control.
+
+For manufacturing, this means microgravity data are most useful when translated into process variables: temperature gradient, interface velocity, cooling rate, undercooling, solute profile, melt lifetime and grain-nucleation conditions.
+
+### 2. In-space metal AM brings back free-surface and rapid-solidification problems
+
+Laser or arc-based metal AM introduces steep gradients, moving melt pools, repeated remelting, free surfaces, feedstock interaction and constrained atmosphere. These conditions make Marangoni flow, pore motion, surface tension, recoil pressure and melt-bridge stability more important than they are in sealed directional-solidification ampoules.
+
+The 2024 ESA/Airbus ISS metal printer demonstration confirms that orbital metal printing is now technically real, but sample return and ground analysis are still required to understand how microgravity changed the process. That leaves a strong research gap in linking in situ process signatures to final microstructure and properties.
+
+### 3. Alloy selection needs gravity sensitivity, not only terrestrial printability
+
+Terrestrial AM alloy design usually focuses on cracking, hot tearing, columnar/equiaxed grain control, oxidation, processability and mechanical properties. In-space manufacturing adds another filter: how strongly the alloy's solidification path depends on buoyancy, solute density, nucleant density, free-surface flow and undercooling.
+
+Useful alloy families for the PhD:
+
+- **Al-Cu and Al-Si**: strongest benchmark evidence for CET, dendrites, macrosegregation and microgravity/1g comparison.
+- **Ti64 and TiAl**: high space-hardware relevance, strong need for reliable thermophysical data.
+- **Ni superalloys**: relevant to propulsion and high-temperature systems, but complex and difficult to qualify.
+- **Zr-based metallic glasses**: demonstrated in space AM and attractive because avoiding crystallization can be useful.
+- **Refractory eutectics**: useful for phase-selection, undercooling and China Space Station levitation studies.
+
+## Mechanism-to-Manufacturing Map
+
+| Mechanism | Manufacturing implication | Evidence direction |
+|---|---|---|
+| Suppressed buoyancy | Lower convective macrosegregation and cleaner diffusion benchmarks | ISS MSL, sounding rockets, levitation |
+| Suppressed grain sedimentation/floatation | CET behaviour may shift relative to 1g casting/AM maps | Al-Cu and Al-Si benchmarks |
+| Marangoni convection | Can dominate near bubbles, pores, droplets and melt pools | PFMI, MICAST, refractory droplet studies |
+| Shrinkage feeding | Segregation and pore evolution remain possible even in microgravity | Al-Cu benchmark studies |
+| Electromagnetic stirring | Useful for levitation/property measurement but can bias flow state | ISS-EML and TEMPUS/EML literature |
+| Deep undercooling | Enables phase-selection and metallic-glass processing studies | ISS-EML, ISS-ELF, China Space Station |
+| Rapid solidification | AM process windows may not follow slow Bridgman expectations | Metal AM and levitation rapid-solidification literature |
+
+## Thesis Claim To Test
+
+Microgravity improves in-space manufacturing only when the process is designed around the residual flow hierarchy. If a process has a free surface, bubble, pore, steep thermal gradient or externally applied field, the dominant mechanism may shift from buoyancy to Marangoni, shrinkage or electromagnetic transport rather than to pure diffusion.
+
 ## Relevant Literature Insights
 - [[wiki/papers/Elke__gravity_on_liquid_diffusion]]: Gravity modifies atomic mobility/diffusion in melts
 - [[wiki/papers/Haipeng_2024_refractory_droplet_freezing_in_space]]: Freezing shrinkage and surface dendrites on space-floated droplets
@@ -69,4 +117,4 @@ This page aggregates findings from all extracted literature notes that match the
 - [[wiki/papers/Reinhart__in-situ_X-ray_review]]: Review of in-situ X-ray monitoring in alloy solidification
 
 ## Open Analysis
-*Pending manual synthesis by researcher.*
+See [[Deep Research - Metal Alloy Processing for In-Space Manufacturing]] for the full research guide, priority reading order, source audit and 90-day work plan.
