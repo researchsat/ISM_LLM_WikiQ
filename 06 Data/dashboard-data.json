@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-26 10:03",
+  "generated": "2026-04-26 13:05",
   "counts": {
-    "notes": 379,
+    "notes": 380,
     "pdfs": 63,
     "digests": 186,
     "archive_papers": 54,
@@ -419,6 +419,31 @@
       "preview": "# Experimental Platforms Used A live map of which microgravity simulation platforms are tied to which papers. ```dataview TABLE platform, facility, mission FROM \"wiki/papers\" WHERE type = \"paper\" AND (platform != null OR length(platform) > 0) SORT file.name AS"
     },
     {
+      "title": "Interactive PhD Dashboard",
+      "path": "00 MOCs/Interactive PhD Dashboard.md",
+      "type": "MOC",
+      "top": "00 MOCs",
+      "status": "active",
+      "tags": [
+        "dashboard",
+        "moc",
+        "phd"
+      ],
+      "priority": "",
+      "system": "",
+      "method": "",
+      "relevance": "",
+      "source_pdf": "",
+      "links": [
+        "Archive Import Map",
+        "Earth 1g vs Microgravity Solidification Processing",
+        "Literature Review Workflow",
+        "Metal Alloy Processing for In-Space Manufacturing MOC",
+        "START HERE"
+      ],
+      "preview": "# Interactive PhD Dashboard Open the full visual dashboard: - [Interactive PhD Dashboard.html](Interactive%20PhD%20Dashboard.html) The HTML dashboard is self-contained and generated from the current vault files. It includes search, type/status/tag filters, rev"
+    },
+    {
       "title": "Metal Alloy Processing for In-Space Manufacturing MOC",
       "path": "00 MOCs/Metal Alloy Processing for In-Space Manufacturing MOC.md",
       "type": "MOC",
@@ -454,6 +479,7 @@
         "Immiscible Alloy Solidification",
         "In situ investigation of CET during Al-20wtCu solidification",
         "In-Space Additive Manufacturing",
+        "Interactive PhD Dashboard",
         "Interdendritic Flow and Macrosegregation",
         "Liquid-Solid Mixture Processing",
         "Marangoni Convection in Melt Pools",
@@ -462,7 +488,7 @@
         "Validation Report",
         "Why Gravity Matters in Alloy Solidification"
       ],
-      "preview": "# Metal Alloy Processing for In-Space Manufacturing MOC This is the home map for the PhD wiki on metal alloy solidification and manufacturing in space microgravity. ## Core Literature Review - [[Earth 1g vs Microgravity Solidification Processing]] - [[Validati"
+      "preview": "# Metal Alloy Processing for In-Space Manufacturing MOC This is the home map for the PhD wiki on metal alloy solidification and manufacturing in space microgravity. ## Core Literature Review - [[Interactive PhD Dashboard]] - [[Earth 1g vs Microgravity Solidifi"
     },
     {
       "title": "Metal Alloy Processing for In-Space Manufacturing",
@@ -8009,11 +8035,12 @@
       "links": [
         "Archive Import Map",
         "Earth 1g vs Microgravity Solidification Processing",
+        "Interactive PhD Dashboard",
         "Literature Review Workflow",
         "Metal Alloy Processing for In-Space Manufacturing",
         "Metal Alloy Processing for In-Space Manufacturing MOC"
       ],
-      "preview": "# START HERE Open the PhD wiki from here: - [[Metal Alloy Processing for In-Space Manufacturing]] - [[Metal Alloy Processing for In-Space Manufacturing MOC]] - [[Archive Import Map]] - [[Earth 1g vs Microgravity Solidification Processing]] - [[Literature Revie"
+      "preview": "# START HERE Open the PhD wiki from here: - [[Metal Alloy Processing for In-Space Manufacturing]] - [[Metal Alloy Processing for In-Space Manufacturing MOC]] - [[Interactive PhD Dashboard]] - [[Archive Import Map]] - [[Earth 1g vs Microgravity Solidification P"
     }
   ],
   "charts": [
@@ -8096,12 +8123,12 @@
       7
     ],
     [
-      "thermophysical-properties",
+      "phd",
       6
     ],
     [
-      "phd",
-      5
+      "thermophysical-properties",
+      6
     ],
     [
       "in-space-manufacturing",
@@ -8120,6 +8147,10 @@
       5
     ],
     [
+      "moc",
+      4
+    ],
+    [
       "synthesis",
       4
     ],
@@ -8130,10 +8161,6 @@
     [
       "fluid-flow",
       4
-    ],
-    [
-      "moc",
-      3
     ],
     [
       "ISM",
@@ -8199,7 +8226,7 @@
     ],
     [
       "active",
-      12
+      13
     ],
     [
       "to-read",
@@ -8252,12 +8279,12 @@
       9
     ],
     [
-      "Paper",
+      "MOC",
       8
     ],
     [
-      "MOC",
-      7
+      "Paper",
+      8
     ],
     [
       "Review",
@@ -8307,7 +8334,7 @@
     ],
     [
       "00 MOCs",
-      7
+      8
     ],
     [
       "01 Literature Review",

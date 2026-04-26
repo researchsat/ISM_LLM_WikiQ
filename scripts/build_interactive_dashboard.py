@@ -15,6 +15,7 @@ ROOT = Path(".")
 OUT_HTML = Path("00 MOCs") / "Interactive PhD Dashboard.html"
 OUT_MD = Path("00 MOCs") / "Interactive PhD Dashboard.md"
 OUT_JSON = Path("06 Data") / "dashboard-data.json"
+GITHUB_REPO_BLOB = "https://github.com/researchsat/ISM_LLM_Wiki/blob/main/"
 
 TOP_LEVEL = [
     "00 MOCs",
@@ -304,10 +305,10 @@ h1 {{ margin: 10px 0 12px; font-size: 38px; line-height: 1.05; letter-spacing: 0
       <h1>PhD Wiki Interactive Dashboard</h1>
       <p class="subtitle">A visual index of the current Obsidian vault: concept notes, paper notes, digests, charts, extraction data, and review workflow. Use the filters to move between the literature-review map, mechanisms, alloy systems, platforms, and paper evidence.</p>
       <div class="quickLinks">
-        <a href="../START%20HERE.md">Start Here</a>
-        <a href="Metal%20Alloy%20Processing%20for%20In-Space%20Manufacturing%20MOC.md">Main MOC</a>
-        <a href="../01%20Literature%20Review/Earth%201g%20vs%20Microgravity%20Solidification%20Processing.md">1g vs Microgravity Review</a>
-        <a href="../05%20Methods/Literature%20Review%20Workflow.md">Workflow</a>
+        <a href="../START%20HERE.md" data-vault-path="START HERE.md">Start Here</a>
+        <a href="../00%20MOCs/Metal%20Alloy%20Processing%20for%20In-Space%20Manufacturing%20MOC.md" data-vault-path="00 MOCs/Metal Alloy Processing for In-Space Manufacturing MOC.md">Main MOC</a>
+        <a href="../01%20Literature%20Review/Earth%201g%20vs%20Microgravity%20Solidification%20Processing.md" data-vault-path="01 Literature Review/Earth 1g vs Microgravity Solidification Processing.md">1g vs Microgravity Review</a>
+        <a href="../05%20Methods/Literature%20Review%20Workflow.md" data-vault-path="05 Methods/Literature Review Workflow.md">Workflow</a>
       </div>
     </div>
     <div class="metrics" id="metrics"></div>
@@ -378,6 +379,7 @@ h1 {{ margin: 10px 0 12px; font-size: 38px; line-height: 1.05; letter-spacing: 0
 <script>
 const data = JSON.parse(document.getElementById('dashboard-data').textContent);
 const state = {{ q: '', type: '', status: '', tag: '' }};
+const githubRepoBlob = '{GITHUB_REPO_BLOB}';
 const metrics = [
   ['Notes', data.counts.notes],
   ['Reference PDFs', data.counts.pdfs],
@@ -434,8 +436,30 @@ function matches(r) {{
   return true;
 }}
 
-function fileHref(path) {{
+function encodePathSegments(path) {{
+  return path.split('/').map(part => encodeURIComponent(part)).join('/');
+}}
+
+function isPublishedOnGitHubPages() {{
+  return window.location.hostname.endsWith('github.io');
+}}
+
+function localVaultHref(path) {{
   return '../' + encodeURI(path);
+}}
+
+function fileHref(path) {{
+  const normalized = path.replace(/\\\\/g, '/');
+  if (isPublishedOnGitHubPages() && normalized.toLowerCase().endsWith('.md')) {{
+    return githubRepoBlob + encodePathSegments(normalized);
+  }}
+  return localVaultHref(normalized);
+}}
+
+function upgradeStaticNoteLinks() {{
+  document.querySelectorAll('a[data-vault-path]').forEach(anchor => {{
+    anchor.href = fileHref(anchor.dataset.vaultPath);
+  }});
 }}
 
 function renderResults() {{
@@ -447,7 +471,7 @@ function renderResults() {{
       <h3>${{r.title}}</h3>
       <div class="meta"><span class="pill">${{r.type}}</span><span class="pill">${{r.status}}</span>${{tags}}</div>
       <div class="preview">${{r.preview || r.relevance || r.path}}</div>
-      <a class="openLink" href="${{fileHref(r.path)}}">Open note</a>
+      <a class="openLink" href="${{fileHref(r.path)}}">Open rendered note</a>
     </article>`;
   }}).join('');
 }}
@@ -487,6 +511,7 @@ document.querySelectorAll('.chartThumb').forEach(btn => {{
 renderBars();
 renderPriority();
 renderMissing();
+upgradeStaticNoteLinks();
 render();
 </script>
 </body>
